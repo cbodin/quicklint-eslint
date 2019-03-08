@@ -12,7 +12,7 @@ Installation
 ------
 Add the package as a dev dependency:
 ```bash
-npm i -D https://github.com/cbodin/quicklint-eslint.git#v1.0.0
+npm i -D github:cbodin/quicklint-eslint#v1.0.0
 ```
 
 
