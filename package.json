@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Pre-configured ESLint for ES2018 syntax with airbnb as a base, packaged in a simple CLI",
   "author": "Christofer Bodin <christofer@christoferbodin.se>",
-  "license": "ISC",
+  "license": "MIT",
   "private": true,
   "repository": {
     "type": "git",
