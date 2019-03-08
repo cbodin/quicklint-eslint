@@ -1,0 +1,38 @@
+{
+  "extends": "airbnb-base",
+
+  "env": {
+    "browser": true
+  },
+
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "impliedStrict": true
+    }
+  },
+
+  "plugins": [
+    "json"
+  ],
+
+  "settings": {
+    "import/extensions": [
+      ".mjs",
+      ".js"
+    ]
+  },
+
+  "rules": {
+    "import/no-nodejs-modules": "error",
+    "import/extensions": [
+      "error",
+      "always",
+      {
+        "mjs": "never",
+        "js": "never"
+      }
+    ]
+  }
+}

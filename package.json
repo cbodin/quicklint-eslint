@@ -1,0 +1,23 @@
+{
+  "name": "@cbodin/quicklint-eslint",
+  "version": "1.0.0",
+  "description": "Pre-configured ESLint for ES2018 syntax with airbnb as a base, packaged in a simple CLI",
+  "author": "Christofer Bodin <christofer@christoferbodin.se>",
+  "license": "ISC",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbodin/quicklint-eslint.git"
+  },
+  "main": "./bin/cli.js",
+  "bin": {
+    "quicklint-eslint": "./bin/cli.js"
+  },
+  "dependencies": {
+    "argparse": "^1.0.10",
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-json": "^1.4.0"
+  }
+}
